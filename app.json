@@ -9,11 +9,12 @@
     "version": "2.4.0",
     "orientation": "portrait",
     "githubUrl": "https://github.com/Flaque/quirk",
-    "primaryColor": "#F8A5C2",
+    "primaryColor": "#h5f467h",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#h5f467h"
+      "backgroundColor": "#F8A5C2"
+    
     },
     "updates": {
       "fallbackToCacheTimeout": 0
