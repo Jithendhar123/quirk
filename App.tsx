@@ -22,9 +22,10 @@ import OnboardingScreen from "./src/onboarding";
 import IndexLearnScreen from "./src/learn";
 import CheckupScreen from "./src/checkups";
 import { setCustomText } from "react-native-global-props";
-import { Platform } from "react-native";
+import { Platform, StyleSheet } from "react-native";
 import SupportScreen from "./src/payments/SupportScreen";
 import MarkdownArticleScreen from "./src/articles/MarkdownArticleScreen";
+
 
 // Fixes a bug on OnePlus phones which have some buggy font by default
 if (Platform.OS === "android") {
@@ -56,3 +57,9 @@ const App = createBottomTabNavigator(
 );
 
 export default withErrorBoundary(createAppContainer(App));
+
+const styles = StyleSheet.create({
+  inputBox: {
+  backgroundColor:'blue'
+}
+})
